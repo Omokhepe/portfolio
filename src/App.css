@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /*--breakpoint-*: initial;*/
+  --color-*: initial;
+  /*--color-deep-blue: #010026;*/
+  --color-deep-blue: #150016;
+  --color-blue: #29104A;
+  --color-red: #522C5D;
+  --color-yellow: #845162;
+  --color-grey: #ededed;
+  --color-dark-grey: #FFE3D8;
+  --color-opaque-black: rgba(0,0,0,0.35);
+  --color-white: #fff;
+--color-gradient-rainbow:
+linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%);
+
+--color-gradient-rainblue:
+linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
+}
+.app {
+  height: 100%;
+  background-color: #010026;
+  color: var(--color-white);
+}
+
+.text-dark-blue{
+  color: var(--color-deep-blue);
+}
+.bg-dark-blue{
+  background: var(--color-deep-blue);
+}
+.bg-blue{
+  background: var(--color-blue);
+}
+.text-red{
+  color: var(--color-red);
+}
+.bg-red{
+  background: var(--color-red);
+}
+.text-yellow{
+  color: var(--color-yellow);
+}
+.bg-yellow{
+  background: var(--color-yellow);
+}
+.text-grey{
+  color: var(--color-grey);
+}
+.bg-grey{
+  background: var(--color-grey);
+}
+.text-dark-grey{
+  color: var(--color-dark-grey);
+}
+.bg-dark-grey{
+  background: var(--color-dark-grey);
+}
+.placeholder-opaque-black{
+  color: var(--color-opaque-black);
+}
+.bg-opaque-black{
+  background: var(--color-opaque-black);
+}
+.bg-gradient-rainbow{
+  background: var(--color-gradient-rainbow);
+}.bg-gradient-rainblue{
+  background: var(--color-gradient-rainblue);
+}
+
+
