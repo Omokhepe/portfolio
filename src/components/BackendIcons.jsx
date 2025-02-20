@@ -3,12 +3,12 @@ const BackendIcons = () => {
         <div className="flex justify-center md:justify-start my-10 gap-7">
             <a
                 className="hover:opacity-50 transition duration-500"
-                href="https://www.linkedin.com"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
             >
                 {/*<div className="bg-[url(/assets/api.png)]"></div>*/}
-                <img alt="linkedin-link" src="../assets/api.png" />
+                <img alt="linkedin-link" src="assets/api.png" />
             </a>
             {/*<a*/}
             {/*    className="hover:opacity-50 transition duration-500"*/}
@@ -24,7 +24,7 @@ const BackendIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="facebook-link" className='inline-block rounded-lg bg-grey p-2' src="../assets/expressjs.png" />
+                <img alt="facebook-link" className='inline-block rounded-lg bg-grey p-2' src="assets/expressjs.png" />
             </a>
             <a
                 className="hover:opacity-50 transition duration-500"
@@ -32,7 +32,7 @@ const BackendIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="instagram-link" className='inline-block rounded-lg bg-grey p-2' src="../assets/postgre.png" />
+                <img alt="instagram-link" className='inline-block rounded-lg bg-grey p-2' src="assets/postgre.png" />
             </a>
             <a
                 className="hover:opacity-50 transition duration-500"

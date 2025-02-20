@@ -7,7 +7,7 @@ const FrontendIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="linkedin-link" src="../assets/html5.png" />
+                <img alt="linkedin-link" src="assets/html5.png" />
             </a>
             <a
               className="hover:opacity-50 transition duration-500"
@@ -15,7 +15,7 @@ const FrontendIcons = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="twitter-link" src="../assets/css3.png" />
+              <img alt="twitter-link" src="assets/css3.png" />
             </a>
             <a
               className="hover:opacity-50 transition duration-500"
@@ -23,7 +23,7 @@ const FrontendIcons = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="facebook-link" src="../assets/typescript.png" />
+              <img alt="facebook-link" src="assets/typescript.png" />
             </a>
             <a
               className="hover:opacity-50 transition duration-500"
@@ -31,7 +31,7 @@ const FrontendIcons = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="instagram-link" src="../assets/javascript.png" />
+              <img alt="instagram-link" src="assets/javascript.png" />
             </a>
             <a
               className="hover:opacity-50 transition duration-500"
@@ -39,7 +39,7 @@ const FrontendIcons = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="instagram-link" src="../assets/tailwindcss.png" />
+              <img alt="instagram-link" src="assets/tailwindcss.png" />
             </a>
             <a
               className="hover:opacity-50 transition duration-500"
@@ -47,7 +47,7 @@ const FrontendIcons = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="instagram-link" src="../assets/redux.png" />
+              <img alt="instagram-link" src="assets/redux.png" />
             </a>
         </div>
     );
