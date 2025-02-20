@@ -8,7 +8,7 @@ const BackendIcons = () => {
                 rel="noreferrer"
             >
                 {/*<div className="bg-[url(/assets/api.png)]"></div>*/}
-                <img alt="linkedin-link" src="assets/api.png" />
+                <img alt="linkedin-link" className='inline-block rounded-lg bg-grey p-2' src="assets/api.png" />
             </a>
             {/*<a*/}
             {/*    className="hover:opacity-50 transition duration-500"*/}
@@ -40,7 +40,7 @@ const BackendIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img alt="instagram-link" className='inline-block rounded-lg bg-grey p-2' src="../assets/sql.png" />
+                <img alt="instagram-link" className='inline-block rounded-lg bg-grey p-2' src="assets/sql.png" />
             </a>
 
         </div>

@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contactme.jpg" alt="contact" />
+          <img src="assets/contactme.jpg" alt="contact" />
         </motion.div>
 
         <motion.div
@@ -126,12 +126,12 @@ const Contact = () => {
               </p>
             )}
 
-            <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
-              type="submit"
-            >
-              SEND ME A MESSAGE
-            </button>
+            {/*<button*/}
+            {/*  className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"*/}
+            {/*  type="submit"*/}
+            {/*>*/}
+            {/*  SEND ME A MESSAGE*/}
+            {/*</button>*/}
           </form>
         </motion.div>
       </div>

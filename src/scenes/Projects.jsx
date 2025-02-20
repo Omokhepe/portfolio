@@ -24,12 +24,11 @@ const Project = ({ title }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p>
+        {/*<p className="mt-7">*/}
+        {/*  {description}*/}
+        {/*</p>*/}
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -58,9 +57,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          I love turning ideas into functional, high-performing web applications. Here are some of the projects I’ve built, each solving real-world problems with clean, scalable code and modern web technologies.
         </p>
       </motion.div>
 
@@ -80,7 +77,7 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
+          <Project title="Project 1"/>
           <Project title="Project 2" />
 
           {/* ROW 2 */}
